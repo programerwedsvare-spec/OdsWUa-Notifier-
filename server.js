@@ -16,7 +16,7 @@ app.post("/logs", (req, res) => {
     res.send("ok");
 });
 
-app.get("/", (req, res) => res.send("OdsWUa Logs API online"));
+app.get("/", (req, res) => res.send("Peak Notifier Logs"));
 
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server, path: "/ws" });
